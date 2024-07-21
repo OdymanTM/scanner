@@ -45,8 +45,6 @@
 
 	<key>NSCameraUsageDescription</key>
     <string>permisssss</string>
-	<key>NSCameraUsageDescription</key>
-    <string>tetstss</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
     <string>permis download</string>
 
