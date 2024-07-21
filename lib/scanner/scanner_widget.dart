@@ -70,6 +70,7 @@ class _ScannerWidgetState extends State<ScannerWidget> {
             children: [
               FFButtonWidget(
                 onPressed: () async {
+                  await actions.permissionReq();
                   _model.testst = await actions.scannerAction(
                     context,
                   );
