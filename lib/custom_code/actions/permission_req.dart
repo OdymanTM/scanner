@@ -7,6 +7,8 @@ import 'package:flutter/material.dart';
 // Begin custom action code
 // DO NOT REMOVE OR MODIFY THE CODE ABOVE!
 
+import 'package:permission_handler/permission_handler.dart';
+
 Future permissionReq() async {
   final status = await Permission.camera.request();
 }
